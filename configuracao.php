@@ -1,12 +1,32 @@
 {
-        "workbench.colorTheme": "Dracula Soft",
-        "workbench.iconTheme": "material-icon-theme",
-        "window.zoomLevel": 1,
+        "css.remoteStyleSheets": [
+                "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+        ],
+        // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+        "editor.lineHeight": 24,
+        // Enables font ligatures
+        "editor.fontLigatures": true,
+        // Controls if file decorations should use badges.
+        "explorer.decorations.badges": false,
+        // Controls if suggestions should be accepted on 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions. The value 'smart' means only accept a suggestion with Enter when it makes a textual change
+        "editor.acceptSuggestionOnEnter": "on",
+        // Controls if suggestions should automatically show up when typing trigger characters
+        "editor.suggestOnTriggerCharacters": true,
+        // Enable word based suggestions
+        "editor.wordBasedSuggestions": true,
+        // Enable parameter hints
+        "editor.parameterHints": true,
+        //
         "path-intellisense.showHiddenFiles": true,
+        //
         "intelephense.completionProvider.backslashPrefix": false,
+        //
         "php.suggest.basic": false,
+        //
         "files.trimTrailingWhitespace": true,
+        //
         "files.trimFinalNewlines": true,
+        //
         "workbench.startupEditor": "none",
         "editor.renderControlCharacters": false,
         "editor.renderIndentGuides": false,
@@ -27,10 +47,6 @@
         "editor.formatOnPaste": true,
         // Show me whitespace in diffs, just in case some slips through, shows up in the GitHub PR, and I look like a dummy.
         "diffEditor.ignoreTrimWhitespace": false,
-
-        "emmet.includeLanguages": {
-                "php": "html"
-        },
         "files.associations": {
                 ".php_cs": "php",
                 ".php_cs.dist": "php",
@@ -46,5 +62,8 @@
                 "**/vendor/[abcdefghijkmnopqrstuvwxyz]*": true,
                 "**/vendor/l[bcdefghijklmnopqrstuvwxyz]*": true,
                 "storage/framework/views": true
-            }
+        },
+        "workbench.colorTheme": "Material Theme Darker",
+        "materialTheme.fixIconsRunning": false,
+        "workbench.iconTheme": "eq-material-theme-icons-darker"
 }
