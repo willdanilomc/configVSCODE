@@ -21,7 +21,7 @@
         //
         "intelephense.completionProvider.backslashPrefix": false,
         //
-        "php.suggest.basic": false,
+        "php.suggest.basic": true,
         //
         "files.trimTrailingWhitespace": true,
         //
